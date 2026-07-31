@@ -121,7 +121,48 @@ animation:float 18s linear infinite;
 transform:translateY(0px) rotate(0deg);
 }
 }
-/* ---------- NAVBAR ---------- */
+/* ===== Finance Background ===== */
+
+.background{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-2;
+overflow:hidden;
+background:
+radial-gradient(circle at 20% 20%, rgba(212,175,55,.08), transparent 30%),
+radial-gradient(circle at 80% 70%, rgba(22,163,74,.08), transparent 35%),
+linear-gradient(135deg,#08121c,#102437,#0b1520);
+}
+
+.background::before{
+content:"";
+position:absolute;
+width:200%;
+height:200%;
+background-image:
+linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+background-size:80px 80px;
+animation:gridMove 18s linear infinite;
+opacity:.4;
+}
+
+@keyframes gridMove{
+0%{
+transform:translate(0,0);
+}
+100%{
+transform:translate(-80px,-80px);
+}
+}
+
+.container{
+position:relative;
+z-index:10;
+}
 
 
 
