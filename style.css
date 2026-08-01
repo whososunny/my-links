@@ -14,9 +14,9 @@ overflow-x:hidden;
 .hero{
 min-height:100vh;
 display:flex;
-align-items:center;
+align-items:flex-start;
 justify-content:space-between;
-padding:70px 8%;
+padding:10px 8% 0;
 background:
 linear-gradient(rgba(13,22,38,.92),rgba(13,22,38,.92)),
 url("https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80");
