@@ -25,7 +25,10 @@ background-position:center;
 }
 
 .left{
-width:50%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .logo{
@@ -44,8 +47,10 @@ margin-bottom:30px;
     font-size:72px;
     font-weight:800;
     line-height:0.95;
-    margin-bottom:15px;
+    margin:20px 0 15px;
     color:#fff;
+    text-align:center;
+    text-transform:uppercase;
 }
 
 .name span{
