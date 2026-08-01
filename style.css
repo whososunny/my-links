@@ -27,7 +27,32 @@ background-position:center;
 .left{
     width:50%;
 }
+.top-header{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    margin-bottom:25px;
+}
 
+.logo{
+    margin-bottom:0;
+}
+
+.name{
+    font-size:72px;
+    font-weight:800;
+    line-height:0.9;
+    color:#fff;
+    text-transform:uppercase;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:centre;
+}
+
+.name span{
+    color:#d4af37;
+}
 .logo{
 width:90px;
 height:90px;
