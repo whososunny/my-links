@@ -40,7 +40,17 @@ font-weight:700;
 color:#d4af37;
 margin-bottom:30px;
 }
+.name{
+    font-size:72px;
+    font-weight:800;
+    line-height:0.95;
+    margin-bottom:15px;
+    color:#fff;
+}
 
+.name span{
+    color:#d4af37;
+}
 .left h3{
 color:#d4af37;
 letter-spacing:2px;
