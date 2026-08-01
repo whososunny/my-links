@@ -26,9 +26,6 @@ background-position:center;
 
 .left{
     width:50%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
 }
 
 .logo{
@@ -47,9 +44,8 @@ margin-bottom:30px;
     font-size:72px;
     font-weight:800;
     line-height:0.95;
-    margin:20px 0 15px;
+    margin:110px 0 20PX 120px;
     color:#fff;
-    text-align:center;
     text-transform:uppercase;
 }
 
