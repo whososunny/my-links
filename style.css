@@ -130,6 +130,7 @@ transform:translateY(-4px);
 width:45%;
 display:flex;
 justify-content:center;
+    align-item:flexstart;
 }
 
 .right img{
