@@ -441,3 +441,53 @@ text-align:center;
 }
 
 }
+/* ================= HERO FEATURES ================= */
+
+.hero-features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin-top:45px;
+}
+
+.feature-card{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:18px;
+    padding:20px;
+    backdrop-filter:blur(10px);
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    border-color:#d4af37;
+    box-shadow:0 15px 35px rgba(212,175,55,.2);
+}
+
+.feature-card i{
+    font-size:28px;
+    color:#d4af37;
+    margin-bottom:12px;
+}
+
+.feature-card h4{
+    color:#fff;
+    font-size:20px;
+    margin-bottom:8px;
+}
+
+.feature-card p{
+    color:#cbd5e1;
+    font-size:14px;
+    line-height:1.5;
+}
+
+@media(max-width:900px){
+
+.hero-features{
+    grid-template-columns:1fr;
+}
+
+}
